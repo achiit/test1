@@ -3,7 +3,12 @@ package main
 import "fmt"
 
 func main() {
-    
+    n := 5 // Change the value to adjust the size of the triangle
 
-    fmt.Println("this is second change")
+    for i := 1; i <= n; i++ {
+        for j := 1; j <= i; j++ {
+            fmt.Print("* ")
+        }
+        fmt.Println()
+    }
 }
